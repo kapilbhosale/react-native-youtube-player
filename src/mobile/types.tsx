@@ -69,6 +69,6 @@ export const PlayerDefaultProps = {
   ...YTWebViewDefaultProps,
   onFullScreen: () => {},
   loop: false,
-  showFullScreenButton: false,
+  showFullScreenButton: true,
   onStart: () => {}
 };
