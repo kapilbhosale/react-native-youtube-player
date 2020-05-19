@@ -37,7 +37,7 @@ export default ({
         minimumTrackTintColor="red"
         maximumTrackTintColor="#FFF"
         value={value}
-        thumbImage={require("./icons/thumb.png")}
+        // thumbImage={require("./icons/thumb.png")}
       />
     )}
   </View>
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
   },
   progress: {
     width: "100%",
-    height: 8,
+    height: 20,
     position: "absolute",
     bottom: 0,
     backgroundColor: "transparent",
