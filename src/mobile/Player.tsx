@@ -25,7 +25,7 @@ export default class Player extends PureComponent<PlayerProps, PlayerState> {
     this.state = {
       ready: false,
       layoutReady: !IsAndroid,
-      fullScreen: false,
+      fullScreen: true,
       play: this.props.autoPlay,
       duration: 0,
       currentTime: 0,

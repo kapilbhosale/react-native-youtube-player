@@ -69,12 +69,13 @@ const styles = StyleSheet.create({
     bottom: 0 // animated to 20 on fullScreen
   },
   progress: {
-    width: "100%",
-    height: 8,
+    width: "90%",
+    height: 16,
     position: "absolute",
     bottom: 0,
     backgroundColor: "transparent",
-    transform: [{ translateY: 3 }]
+    transform: [{ translateY: 3 }],
+    marginBottom: '-10px',
   },
   outerBar: {
     flex: 1,
