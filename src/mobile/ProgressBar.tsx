@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
   },
   progress: {
     width: "100%",
-    height: 20,
+    height: 40,
     position: "absolute",
     bottom: 0,
     backgroundColor: "transparent",
