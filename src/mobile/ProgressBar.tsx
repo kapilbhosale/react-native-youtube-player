@@ -74,8 +74,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     bottom: 0,
     backgroundColor: "transparent",
-    transform: [{ translateY: 3 }],
-    marginBottom: '-10px',
+    transform: [{ translateY: 3 }]
   },
   outerBar: {
     flex: 1,
